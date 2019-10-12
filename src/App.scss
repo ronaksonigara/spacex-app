@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+.spacex-container {
+  padding-top: 56px;
+}
+
+.spacex-cardwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card {
+    margin: 10px;
+  }
+}
+
+.payload-container {
+  padding: 70px 10px 10px;
+  font-size: 18px;
+  color: #484848;
+}
+
+.payload-primary-title {
+  font-size: 22px;
+}
+
+.payload-primary-subtitle {
+  font-size: 20px;
+}
