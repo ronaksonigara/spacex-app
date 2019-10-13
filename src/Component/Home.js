@@ -4,7 +4,7 @@ import banner from "../image/spacex.jpeg";
 function Home() {
   return (
     <div className="home-container spacex-container">
-      <img className="home-baner" src={banner} />
+      <img alt="Space X" className="home-baner" src={banner} />
     </div>
   );
 }
