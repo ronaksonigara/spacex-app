@@ -11,7 +11,6 @@ function Navigation() {
   };
   const handleSelect = () => {
     setNav(false);
-    console.log("aa");
   };
   return (
     <header>
@@ -24,7 +23,7 @@ function Navigation() {
         bg="dark"
         variant="dark"
       >
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/space-x">
           Space X
         </Link>
 

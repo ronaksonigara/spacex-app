@@ -22,6 +22,9 @@
   font-size: 18px;
   color: #484848;
 }
+.launchpad-container {
+  padding-top: 115px;
+}
 
 .payload-primary-title {
   font-size: 22px;
@@ -29,4 +32,18 @@
 
 .payload-primary-subtitle {
   font-size: 20px;
+}
+
+.filter-wrapper {
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.flter-button {
+  text-transform: capitalize;
 }
