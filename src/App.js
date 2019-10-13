@@ -15,7 +15,7 @@ function App() {
       <Navigation />
       <Switch>
         <Route path="/" exact component={Launchpads} />
-        <Route path="/space-x" exact component={Launchpads} />
+        <Route path="/spacex-app" exact component={Launchpads} />
         <Route path="/launchpads" exact component={Launchpads} />
         <Route path="/missions" exact component={Missions} />
         <Route path="/payloads/:id" exact component={Payloads} />

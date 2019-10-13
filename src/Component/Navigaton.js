@@ -23,7 +23,7 @@ function Navigation() {
         bg="dark"
         variant="dark"
       >
-        <Link className="navbar-brand" to="/space-x">
+        <Link className="navbar-brand" to="/spacex-app">
           Space X
         </Link>
 
